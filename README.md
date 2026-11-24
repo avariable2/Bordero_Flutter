@@ -1,40 +1,29 @@
-# Bordero
-**Strongly recommended: review the mockup in `App-psy.pdf`**
+# Bordero — Flutter invoice and client management
 
-![Icon of the app.](https://github.com/avariable2/bordero/blob/main/assets/images/icon.png)
+A Flutter application exploring mobile business workflows: customer information, quotations and invoices. This repository is a development example, not a production billing service.
 
-## About Bordero
+## What it demonstrates
 
-Bordero is an application designed to streamline client, quote, and invoice management for professionals. It offers an intuitive interface to easily create, manage, and track all aspects of client relations.
+- Cross-platform Flutter interface development
+- Customer and document management workflows
+- Mobile-first product design
 
+## Local development
 
-## Key Features
+Install Flutter and the required platform SDK, then run:
 
-- **Client Management:** Add, search, and update client information.
-- **Quote Creation:** Generate custom quotes and send them directly to clients.
-- **Invoice Management:** Create and track invoices, with options to email them or save to Google Drive.
-- **Intuitive Interface:** A clean, easy-to-navigate user interface.
-
-## Getting Started
-
-1. **Installation :** Clone the repository and install all required dependencies.
-```
-git clone git@github.com:avariable2/bordero.git
-npm install
-```
-2. **Run the Application: :** Start the app with:
-```
-npm start
+```sh
+flutter doctor
+flutter pub get
+flutter run
 ```
 
-![Icon of an mobile.](https://github.com/avariable2/bordero/blob/main/assets/images/iPhone.png
-)
-## Usage
+Use demo records for all testing and screenshots. Do **not** commit actual client data, invoices, environment files, API keys or production credentials.
 
-- **Add a Client :** Go to the 'Clients' section to add new clients.
-- **Create a Quote :** Use the 'Quotes' tab to compose and customize a quote.
-- **Generate an Invoice :** In the 'Invoices' tab, create and manage your invoices.
+## Related project
 
-## License
+[Bordero for iOS, built with Swift](https://github.com/avariable2/Bordero_Swift).
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Portfolio note
+
+This is a software engineering demonstration. AI-enabled document processing is showcased separately in the Honeyguide project.
