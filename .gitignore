@@ -45,3 +45,17 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Sensitive local configuration and developer files
+.env
+.env.*
+**/.env
+**/.env.*
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+*.local.json
+*.local.yaml
+**/xcuserdata/
